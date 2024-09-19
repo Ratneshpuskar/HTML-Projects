@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+    font-size: 50px;  
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    
+    align-content: center;
+    justify-content: center;
+}
+
+.container1{
+    background-color: red;
+    margin: 5px 5px;
+}
+
+.container2{
+    background-color: blue;
+    margin: 5px 5px;
+}
+
+.container3{
+    background-color: green;
+    margin: 5px 5px;
+}
+
+.container4{
+    background-color: yellow;
+    margin: 5px 5px;
+}
+
+.container5{
+    background-color: orange;
+    margin: 5px 5px;
+}
+
+.container6{
+    background-color: magenta;
+    margin: 5px 5px;
+}

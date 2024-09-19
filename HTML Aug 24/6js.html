@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Javascript -->
+    <script>
+
+    const f = ["apples", "Joel", "Sam"];
+    const filtereddata = f.filter((n) => {
+    return n=="apples"});
+    const nominees = f.map((f1) => {
+        return f1 + '#joined the contest';
+    })
+    console.log(nominees);
+ 
+    const nums = [2,6,,8,16,32]
+    const sum1 = nums.reduce((accumulator, curVal) => {
+        console.log(accumulator, curVal);
+        return accumulator+curVal;
+    });
+
+        //filter
+        const data1 = [3, 6, 9, 5, 3, 65, 7, 3, 66];
+        const filteredData = data1.filter((n) => {
+            return n < 10;
+        });
+        console.log(filteredData);
+
+
+        //array method map
+        const members = ["john", "joel", "Sam", "Nancy"];
+        const nominees = members.map((member) => {})
+        return member + '#joined the contest';
+
+
+    </script>
+
+    <title>Javascript</title>
+</head>
+<body>
+    
+</body>
+</html>

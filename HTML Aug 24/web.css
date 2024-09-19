@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "heading heading heading"
+        "nav main aside"
+        "nav footer footer";
+    grid-template-rows: 150px 1fr 70px;
+    row-gap: 10px;
+    column-gap:10px;
+
+    background: linear-gradient(to right, #FF671F,#FF671F, #FFFFFF, #FFFFFF, #06038D, #FFFFFF, #FFFFFF,#046A38,#046A38);
+    color: black;
+}
+
+header{
+    grid-area: heading;
+}
+
+.heading{
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+main{
+    grid-area: main;
+    text-align: justify;
+}
+
+nav{
+    grid-area: nav;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+header > nav{
+    display: block;
+}
+
+header > nav > a{
+    color: crimson;
+    float: right;
+    padding: 15px 50px;
+}
+
+@media screen and(max-width: 768px){
+    
+    body{
+        grid-template-columns: 1fr;
+        display: inline-block;
+
+    }
+}

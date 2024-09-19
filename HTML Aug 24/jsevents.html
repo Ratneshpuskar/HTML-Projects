@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+        function sayGreetings(){
+            alert("Ola coma sava!!");
+        }
+
+        function showSeason(){
+            var month = new Date().getMonth();
+            if (month >= 6 && month < 9) alert("Monsoon season");
+        }
+
+        function green(){
+            document.getElementById("greendiv").style.backgroundColor = "green";
+            document.getElementById("greendiv").style.color = "white";
+            document.getElementById("greendiv").style.fontStyle = "italic";
+            document.getElementById("greendiv").style.fontSize = "120px";
+        }
+
+        function blue(){
+            document.getElementById("bluediv").style.backgroundColor = "blue";
+            document.getElementById("bluediv").style.color = "white";
+            document.getElementById("bluediv").style.fontSize = "120px";
+        }
+
+        function validate(){
+            //alert("validating....");
+            var u = document.getElementById("uid").value;
+            var p = document.getElementById("pid").value;
+            alert(u + p);
+            if(u.length > 8 && p.length >8)
+            return true;
+            else
+            return false;
+        }
+        var a = ["abc", "bcd", "cde"];
+        alert(a);
+        a.push(10);
+        alert(a);
+    </script>
+
+    <title>JSEvents</title>
+</head>
+<body>
+    <!-- <form action="" method="post" onsubmit ="return validate()">
+        <fieldset>
+            <legend>Login form</legend>
+                <label for="username">username</label>
+                    <input type="text" name="username" id="uid" />
+                <label for="password">password</label>
+                    <input type="password" name="password" id="pid" />
+                <input type="submit" value="Go" />
+                <input type="reset" value="clear" />
+
+                <!-- <input type="button" value="greet" onclick="sayGreetings()" />
+                <input type="button" value="season" onclick="showSeason()" />
+
+                <input type="button" value="green" onclick="green()" />
+                <input type="button" value="blue" onclick="blue()" /> -->
+        <!-- </fieldset>
+    </form>
+
+    
+    <div id="greendiv">
+        Hello <br /><br /><br />
+    </div>
+
+    <div id="bluediv">
+        Hello <br /><br /><br />
+    </div> -->
+</body>
+</html>

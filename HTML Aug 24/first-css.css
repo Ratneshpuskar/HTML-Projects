@@ -1,0 +1,373 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    width: 100vw;
+    height: 800px;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.fullbody {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: 1;
+    width: 100vw;
+    height: 800px;
+  }
+
+.taglog{
+    color: red;
+}
+
+.head{
+    color: darkmagenta;
+}
+
+.h{
+    background-color:darkgray;
+    width: 400px;
+    align-items: center;
+    margin-left: 35%;
+}
+
+ol,ul{
+    display: table;
+    margin: 0 auto;
+}
+
+.heading{
+    background-color:darkgray;
+    width: 70px;
+    align-items: center;
+    margin-left: 1.5%;
+}
+
+.t1{
+    margin-top: 5px;
+    padding: 5px;
+    display: grid;
+    grid-row: 1fr;
+    border-radius: 2%;
+}
+
+div > div{
+    border: 2px;
+    border-radius: 2%;
+    padding: 5px;
+}
+
+.r1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.r1c1,.r2c1,.r3c1,.r4c1,.r5c1,.r6c1,.r7c1,.r8c1{
+    background-color:darkgray;
+}
+
+.r1c2,.r2c2,.r3c2,.r4c2,.r5c2,.r6c2,.r7c2,.r8c2{
+    background-color: darkgray;
+}
+
+.r1c3,.r2c3,.r3c3,.r4c3,.r5c3,.r6c3,.r7c3,.r8c3{
+    background-color: darkgray;
+}
+
+.r1c4,.r2c4,.r3c4,.r4c4,.r5c4,.r6c4,.r7c4,.r8c4{
+    background-color: darkgray;
+}
+
+.r1c5,.r2c5,.r3c5,.r4c5,.r5c5,.r6c5,.r7c5,.r8c5{
+    background-color: darkgray;
+}
+
+.r1c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r2c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r3c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r4c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r5c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r6c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r7c1:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r8c1:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.r1c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r2c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r3c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r4c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r5c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r6c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r7c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r8c2:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r1c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r2c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r3c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r4c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r5c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r6c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r7c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r8c3:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r1c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r2c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r3c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r4c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r5c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r6c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r7c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r8c4:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r1c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r2c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r3c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r4c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r5c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r6c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r7c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}
+
+.r8c5:hover{
+    transition: 00.3s;
+    transform: scale(1.1);
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    background-color: black;
+}
+
+.t1{
+    background-color:white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.c1{
+    display: grid;
+    margin: 20px;
+}
+
+.c2{
+    display: grid;
+    margin: 20px;
+}
+
+
+.p1{
+    object-fit: center;
+    height: 100%;
+    width: 100%;
+}
+
+.p2{
+    object-fit: center;
+    height: 100%;
+    width: 100%;
+}
+
+.p3{
+    object-fit: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.p4{
+    object-fit: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+img{
+    object-fit:contain;
+}

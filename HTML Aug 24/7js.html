@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Javascript -->
+    <script>
+        // const square = function(n){
+        //     return n*n;
+        // };
+
+        // let s = square;
+        // var result = s(5);
+        // console.log(result);
+
+
+        // const square2 = (n) =>{
+        //     return n*n;
+        // };
+
+        // var r = square2(9);
+        // alert(r);
+
+
+        // //factorial
+        // const factorial = (n) => {
+        //     let fact = 1;
+        //     while(n>1){
+        //         fact *= n;
+        //         n--;
+        //     }
+        //     return fact;
+        // }
+
+        // f= factorial;
+        // var resultf = f(5);
+        // console.log(resultf);
+
+        //callback functions
+        const isEven = (n) =>{
+            return n % 2 == 0;
+        };
+
+        let printMsg = (evenFunc, num) => {
+            const isNumEven = evenFunc(num);
+            console.log(`${num} is an even number : ${isNumEven}`)
+        };
+        printMsg(isEven, 16);
+
+
+
+        //objects in Javascript
+
+        var movie ={ name: "Titanic", year: 1997 };
+
+        console.log(movie.name);
+        console.log(movie.year);
+        movie.hero = "Jack"
+        console.log(movie);
+
+
+        //json objects
+        var jsonRef = {
+            data: [
+                    {"company": "Google", "location": "San Francisco", "country": "USA", "employees": 156000},
+                    {"company": "Infosys", "location": "Bengaluru", "country": "India", "employees": 343000},
+                    {"company": "TCS", "location": "Powai Mumbai", "country": "India", "employees": 600000},
+                    {"company": "UST", "location": "Trivandrum", "country": "India", "employees": 30000},
+                    {"company": "NVIDIA", "location": "Santa Clara", "country": "USA", "employees": 25000},
+                    {"company": "SAP", "location": "Walldorf", "country": "Germany", "employees": 105000},
+                    {"company": "Siemens", "location": "Munich", "country": "Germany", "employees": 385000},
+                    {"company": "Capgemini", "location": "Paris", "country": "France", "employees": 300000},
+                    {"company": "Accenture", "location": "Dublin", "country": "Ireland", "employees": 674000},
+                    {"company": "Spotify", "location": "Stockholm", "country": "Sweden", "employees": 9000},
+                    ],
+        };
+
+        const totalEmployees = jsonRef.data.reduce((acc, company) => acc + company.employees, 0);
+ 
+        console.log(`Total number of employees: ${totalEmployees}`);
+
+        //console.log(jsonRef.data[0].language="English");
+        console.log(jsonRef.data[0]);
+        console.log(jsonRef.data);
+
+        const companyNames = jsonRef.data.map(item => item.company);
+        console.log("Company Names:", companyNames);
+
+        const totalCompanies = jsonRef.data.reduce((accumulator, item) => accumulator + 1, 0);
+        console.log("Total Companies:", totalCompanies); console.log("Company Details:");
+
+        jsonRef.data.forEach(item => { console.log(`${item.company} located in ${item.location}, ${item.country}`); });
+
+        const countEmployeesByCountry = (jsonRef) => {
+                    return jsonRef.reduce((accumulator, company) => {
+                        if (accumulator[company.country]) {
+                            accumulator[company.country] += company.employees;
+                        } else {
+                            accumulator[company.country] = company.employees;
+                        }
+                        return accumulator;
+                    }, {});
+                };
+ 
+                const employeesByCountry = countEmployeesByCountry(jsonRef.data);
+ 
+                console.log(employeesByCountry);
+
+    </script>
+
+    <title>Javascript</title>
+</head>
+<body>
+    
+</body>
+</html>

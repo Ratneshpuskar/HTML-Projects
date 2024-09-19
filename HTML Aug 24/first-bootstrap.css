@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    width: fit-content;
+}
+
+ol,ul{
+    display: table;
+    margin: 0 auto;
+}
+
+.asap-row1 {
+  font-family: "Asap", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.playwrite-it-trad-heading {
+  font-family: "Playwrite IT Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 150;
+    font-style: normal;
+  }
